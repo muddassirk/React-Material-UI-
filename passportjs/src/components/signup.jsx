@@ -88,7 +88,7 @@ function Signup() {
                         label="Email Address"
                         name="email"
                         autoComplete="email"
-                        autoFocus
+                        // autoFocus
                         />
                         <TextField
                         variant="outlined"
@@ -117,7 +117,7 @@ function Signup() {
           </Button>
           <Grid container>
             <Grid item>
-              <Link href="#" variant="body2">
+              <Link href="/#" variant="body2">
                 {"Already have an account? Sign In"}
               </Link>
             </Grid>
